@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: -webkit-linear-gradient(30deg, rgb(218, 218, 11), rgb(29, 29, 29));
+    background-color: rgb(29, 29, 29);
+}
+.container{
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.image img{
+    width: 400px;
+    margin: 30px 30px;
+    border-radius: 10px;
+}
+.content{
+    color: #fff;
+    margin: 12% 10%;
+    line-height: 1.8;
+}
+.content h2{
+    text-transform: uppercase;
+}
+.content h1{
+    text-transform: uppercase;
+}
+.content h1 span{
+    color: rgb(249, 205, 7);
+}
+.content p{
+    width: 500px;
+    font-size: 11pt;
+}
+.btn{
+    background-color: rgb(249, 205, 7);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+.btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 9pt;
+    font-weight: bold;
+}
+.icons{
+    margin: 10% 0;
+}
+.icons li{
+    list-style-type: none;
+    margin: 15px 0;
+    /* background-color: rgb(249, 205, 7); */
+    background-color: rgb(67, 62, 62);
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.icons li a{
+    font-size: 10pt;
+    color: white;
+}
+.icons li:hover{
+    background-color: rgb(249, 205, 7)
+}
+.icons .focus{
+    background-color: rgb(249, 205, 7)
+}
+.container2{
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: .3s all;
+}
+#c2{
+    transition: 1s ease-in-out;
+}

@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(18, 17, 17);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+    position: relative;
+}
+.header{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+}
+.first{
+    font-size: 84px;
+    margin: 20px 0;
+    letter-spacing: 5px;
+    color: rgba(54, 51, 51, 0.4);
+    z-index: 1;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.second{
+    font-size: 30pt;
+    top: 33px;
+    left: 36.5%;
+    position: absolute;
+    color: white;
+    z-index: 2;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.second span{
+    color: rgb(249, 205, 7);
+    font-weight: 24px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    padding: 0% 10%;
+}
+.first-card{
+    color: #fff;
+    width: 300px;
+    margin-left: 20%;
+}
+.first-card h1{
+    text-transform: uppercase;
+    font-size: 15pt;
+}
+.first-card p{
+    font-size: 10pt;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+.icon{
+    display: flex;
+}
+.icon p span{
+    color: grey;
+}
+.icon p{
+    margin: 10px;
+    margin-top: 0px;
+    
+}
+.icon .fa{
+    color: rgb(249, 205, 7);
+    font-size: 38px;
+    /* margin-top: 12px; */
+}
+.icon .one{
+    font-size: 34px;
+}
+.icon1{
+    margin-top: 10px;
+}  
+.icon1 a{
+    color: #fff;
+    padding: 10px;
+    background-color: rgba(97, 95, 95, 0.3);
+    border-radius: 50px;
+    margin-right: 10px;
+    font-size: 9pt;
+}
+.icon1 .en{
+    padding: 3px;
+}
+.center{
+    margin-right: 50px;
+}
+.center input{
+    padding: 7px;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    margin: 0px 10px 20px 0px;
+    text-transform: capitalize;
+    background-color: rgba(97, 95, 95, 0.3);
+    font-weight: 700;
+    font-size: 9pt;
+    padding: 10px;
+    width: 150px;
+}
+.center input::placeholder{
+    text-transform: uppercase;
+}
+.center textarea{
+    background-color: rgba(97, 95, 95, 0.3);
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+}
+.btn{
+    background-color: rgb(249, 205, 7);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+.btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 9pt;
+    font-weight: bold;
+}
+.icons{
+    margin: 0px 20px;
+}
+.icons li{
+    list-style-type: none;
+    margin-bottom: 15px;
+    /* background-color: rgb(249, 205, 7); */
+    background-color: rgba(97, 95, 95, 0.3);
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.icons li a{
+    font-size: 10pt;
+    color: white;
+}
+.icons li:hover{
+    background-color: rgb(249, 205, 7);
+}
+.icons .focus{
+    background-color: rgb(249, 205, 7);
+}

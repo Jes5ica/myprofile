@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(18, 17, 17);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+    position: relative;
+}
+#header{
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+#first{
+    font-size: 84px;
+    margin: 20px 0;
+    letter-spacing: 10px;
+    color: rgba(54, 51, 51, 0.5);
+    font-weight: 800;
+    z-index: 1;
+}
+#second{
+    font-size: 54px;
+    top: 20px;
+    left: 40%;
+    position: absolute;
+    font-weight: 800;
+    color: white;
+    z-index: 2;
+}
+#second span{
+    color: rgb(249, 205, 7);
+    font-weight: 24px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.p-info{
+    display: flex;
+}
+.p-info p{
+    color: grey;
+    text-transform: capitalize;
+    line-height: 2;
+}
+.p-info p span{
+    color: #fff;
+}
+.card1{
+    margin: 20px 70px;
+}
+.card1 h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.card1 p{
+    margin: 10px 0;
+}
+.card1 .btn{
+    background-color: rgb(249, 205, 7);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+.card1 .btn a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 9pt;
+}
+.card2{
+    margin: 50px 0;
+}
+.card2 p{
+    margin: 9px 0;
+}
+.icons{
+    margin: 0px 20px;
+}
+.icons li{
+    list-style-type: none;
+    margin: 15px 0;
+    /* background-color: rgb(249, 205, 7); */
+    background-color: rgb(67, 62, 62);
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.icons li a{
+    font-size: 10pt;
+    color: white;
+}
+.icons li:hover{
+    background-color: rgb(249, 205, 7);
+}
+.icons .focus{
+    background-color: rgb(249, 205, 7);
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+    margin-top: 10px;
+}
+.box h1{
+    color: rgb(249, 205, 7);
+    font-size: 44px;
+}
+.box p{
+    text-transform: uppercase;
+    color: white;
+    font-size: 9pt;
+    width: 70px;
+}
+.con{
+    width: 150px;
+    height: 80px;
+    border: 1px solid rgba(144, 135, 135, 0.1);
+    background-color: transparent;
+    /* box-shadow: inset 5px 5px 5px grey, inset -5px -5px 5px grey; */
+    margin: 10px;
+    padding: 15px 30px 30px;
+}
